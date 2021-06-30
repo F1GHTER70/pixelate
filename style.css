@@ -100,6 +100,7 @@
 
 li{
     display: inline-block;
+    padding: 10px;
 }
 
 li a{
@@ -108,7 +109,6 @@ li a{
     font-family: 'Poppins', sans-serif;
     font-weight: lighter;
     font-size: 28px;
-    padding: 0 20px;
 }
 
 .cool-link:after{
@@ -128,14 +128,13 @@ li a{
 @media screen and (max-width: 400px){
   li a{
     font-size: 10px;
-    /* padding: 0 5px; */
   }
 
   .nav-container{
     position: absolute;
     top: 80%;
     /* left: 0.5%; */
-    text-align: center;
+    text-align: none;
   }
 }
 
